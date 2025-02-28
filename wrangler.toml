@@ -14,13 +14,13 @@ TARGET_UPSTREAM = "https://registry-1.docker.io"
 [env.production]
 name = "cloudflare-docker-proxy"
 routes = [
-  { pattern = "docker.miaoxiaowu.cn", custom_domain = true },
-  { pattern = "quay.miaoxiaowu.cn", custom_domain = true },
-  { pattern = "gcr.miaoxiaowu.cn", custom_domain = true },
-  { pattern = "k8s-gcr.miaoxiaowu.cn", custom_domain = true },
-  { pattern = "k8s.miaoxiaowu.cn", custom_domain = true },
-  { pattern = "ghcr.miaoxiaowu.cn", custom_domain = true },
-  { pattern = "cloudsmith.miaoxiaowu.cn", custom_domain = true },
+  { pattern = "docker.laoex.link", custom_domain = true },
+  { pattern = "quay.laoex.link", custom_domain = true },
+  { pattern = "gcr.laoex.link", custom_domain = true },
+  { pattern = "k8s-gcr.laoex.link", custom_domain = true },
+  { pattern = "k8s.laoex.link", custom_domain = true },
+  { pattern = "ghcr.laoex.link", custom_domain = true },
+  { pattern = "cloudsmith.laoex.link", custom_domain = true },
 ]
 
 [env.production.vars]
@@ -29,7 +29,7 @@ TARGET_UPSTREAM = ""
 
 [env.staging]
 name = "cloudflare-docker-proxy-staging"
-# route = { pattern = "docker-staging.miaoxiaowu.cn", custom_domain = true }
+# route = { pattern = "docker-staging.laoex.link", custom_domain = true }
 
 [env.staging.vars]
 MODE = "staging"
